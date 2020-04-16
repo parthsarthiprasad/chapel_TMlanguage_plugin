@@ -1,0 +1,25 @@
+{
+    "name": "parth",
+    "displayName": "parth",
+    "description": "Syntax highlighting for parth",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "parth",
+            "aliases": ["parth", "parth"],
+            "extensions": [".parth"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "parth",
+            "scopeName": "source.parth",
+            "path": "./syntaxes/parth.tmLanguage.json"
+        }]
+    }
+}
